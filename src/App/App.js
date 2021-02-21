@@ -1,5 +1,7 @@
 import './App.css';
 import { SideMenu, Header, PageHeader } from '../components'
+import { Employee, EmployeeFrom } from '../pages/Employees'
+
 import { makeStyles, CssBaseline, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 
@@ -51,6 +53,7 @@ function App() {
           subTitle='Page description'
           icon={<PeopleOutlineIcon />}
         />
+        {/* <Employee /> */}
       </div>
       <CssBaseline />
 
