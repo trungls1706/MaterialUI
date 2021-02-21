@@ -1,7 +1,7 @@
 import Employee from './Employee'
-import EmployeeFrom from './EmployeeForm'
+import EmployeeForm from './EmployeeForm'
 
 export {
     Employee,
-    EmployeeFrom
+    EmployeeForm
 }
